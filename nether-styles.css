@@ -22,6 +22,15 @@ section {
 	margin-top: 50px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
 div {
 	left: 120px;
 }
