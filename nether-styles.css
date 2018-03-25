@@ -1,0 +1,35 @@
+/*
+	nethermaker.github.io Styles
+	Author: Tyler Senne
+	Date: March 2018
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	background-color: gray;
+	font-family: Raleway, Geneva, sans-serif;
+	width: 900px;
+	margin: auto;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+section {
+	margin-top: 50px;
+}
+
+div {
+	left: 120px;
+}
+
+footer address {
+	text-align: center;
+	border-top: 3px solid black;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	font-style: normal;
+}

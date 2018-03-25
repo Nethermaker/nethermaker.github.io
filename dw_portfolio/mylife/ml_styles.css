@@ -1,0 +1,122 @@
+/*
+	My Life - Styles Stylesheet
+	
+	Author: Tyler Senne
+	Date: 2/7/2018
+*/
+
+@charset 'utf-8';
+
+/*General*/
+body {
+	background-color: #36486b;
+	color: white;
+	font-family: Corbel;
+}
+
+/*Section*/
+section h1, h2 {
+	letter-spacing: 5px;
+	background-color: #9b2929;
+	xbackground-color: #21a579;
+	text-transform: capitalize;
+	word-spacing: 10px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+section p {
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+section p:first-of-type:first-line {
+	font-size: 1.3em;
+}
+
+section p strong.keyword {
+	color: #42f456;
+	font-weight: normal;
+}
+
+/*Figure*/
+figure {
+	background-color: #618685;
+}
+
+figure figcaption {
+	text-align: center;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+/*Nav & Lists*/
+nav {
+	background-color: #618685;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0em;
+}
+
+nav ul li {
+	line-height: 3em;
+	font-size: 20px;
+	text-indent: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,0.8);
+}
+
+
+section ul {
+	list-style-image: url(bullet.png);
+}
+
+section ul li:first-letter {
+	font-size: 150%;
+}
+
+section ol li {
+	font-size: 1.2em;
+}
+
+/*Nav Animations*/
+@keyframes nav-change {
+    from {background-color: #618685;}
+    to {background-color: rgb(58,80,80);}
+}
+
+nav ul li:not(.current):hover {
+	animation-name: nav-change;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+
+nav ul li.current {
+	background-color: rgb(58,80,80);
+}
+
+/*Footer*/
+footer address {
+	background-color: #618685;
+	text-align: center;
+	border-top: 1px solid black;
+	line-height: 2em;
+	font-family: Times;
+}

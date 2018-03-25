@@ -1,4 +1,3 @@
 # nethermaker.github.io
-I'm never going to use this.
 
-Why do I have it?
+This place is pretty self-explanatory. Take a look at the actual site if you want more info.

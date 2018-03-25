@@ -1,0 +1,50 @@
+/*
+	Gallery Style Sheet
+	Author: Tyler Senne
+	Date: 2/26/2018
+*/
+
+body {
+	width: 100%;
+	min-width: 600px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: cornflowerblue;
+	font-family: Verdana;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table *:not(caption) {
+	border: 1px solid black;
+}
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+}
+
+table {
+	background-color: crimson;
+}
+
+table thead th{
+	font-size: 2em;
+	padding: 10px;
+}
+
+table tfoot td{
+	text-align: center;
+	font-size: 0.9em;
+	padding: 10px;
+}
+
+section p {
+	column-count: 2;
+	column-gap: 30px;
+	column-rule: 2px solid black;
+}
