@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!--nethermaker.github.io
+			Author: Tyler Senne
+			Date: June 2020
+		-->
+		<title>nethermaker.github.io</title>
+		<meta charset='UTF-8' />
+		<script src='modernizr-1.5.js'></script>
+		<link href='https://nethermaker.github.io/nether-styles.css' rel='stylesheet' type='text/css' />
+	</head>
+	
+	<body>
+		Your code is:
+		<br>
+		<div id="code">
+			XXXXXXXXXXX
+		</div>
+		<br>
+		Reply to NetherBot on Discord with this code to finish registration
+		
+		<script>
+			document.getElementById('code').innerHTML = window.location.search.split('=')[1];
+		</script>
+	</body>
+</html>
