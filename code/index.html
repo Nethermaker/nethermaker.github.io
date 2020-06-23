@@ -22,7 +22,8 @@
 		Reply to NetherBot on Discord with this code to finish registration
 		
 		<script>
-			document.getElementById('code').innerHTML = window.location.search.split('=')[1];
+			const urlParams = new URLSearchParams(window.location.search);
+			document.getElementById('code').innerHTML = urlParams.get('code');
 		</script>
 	</body>
 </html>
